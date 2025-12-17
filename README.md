@@ -47,6 +47,6 @@ Scans linked Revit models (HVAC, Plumbing, Medical) and automatically places ele
 📷 Demo
 
 (To be added at a later date)
-👤 Author
 
+👤 Author
 Maciej Woszczek - Electrical Engineer & BIM Developer
