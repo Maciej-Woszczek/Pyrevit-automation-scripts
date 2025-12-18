@@ -39,17 +39,15 @@ Generates a comprehensive lighting fixture report grouped by Room, capable of re
     Solution: This script geometrically maps every light to its architectural room (even in links), calculates counts, and exports a formatted report instantly.
 
     Key Features:
-        Linked Room Resolution:** Uses geometric transformation to accurately identify which room a fixture belongs to inside a linked Architecture file.
-        Automated Reporting:** Automatically inserts "Subtotal" rows for each room and a "Grand Total" at the end of the file.
-        Excel-Ready:** Exports to a specially formatted CSV (UTF-8 BOM) that opens perfectly in Excel with no manual formatting required.
-        Zero Dependencies:** Runs on pure Python/Revit API without requiring external libraries.
+        Linked Room Resolution: Uses geometric transformation to accurately identify which room a fixture belongs to inside a linked Architecture file.
+        Automated Reporting: Automatically inserts "Subtotal" rows for each room and a "Grand Total" at the end of the file.
+        Excel-Ready: Exports to a specially formatted CSV (UTF-8 BOM) that opens perfectly in Excel with no manual formatting required.
+        Zero Dependencies: Runs on pure Python/Revit API without requiring external libraries.
 
 🛠️ Technology Stack
 
     Language: Python 3 (IronPython via pyRevit)
-
     Library: Autodesk Revit API 2024
-
     Tool: pyRevit
 
 📷 Demo
