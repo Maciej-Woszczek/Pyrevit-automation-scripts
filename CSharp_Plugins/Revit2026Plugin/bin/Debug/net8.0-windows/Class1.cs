@@ -6,7 +6,7 @@ using Autodesk.Revit.UI;
 using Autodesk.Revit.Attributes;
 
 // 1. File-Scoped Namespace
-namespace MyRevit2026Plugin;
+namespace Revit2026Plugin;
 
 [Transaction(TransactionMode.Manual)]
 public class CalculateTotalLength : IExternalCommand
