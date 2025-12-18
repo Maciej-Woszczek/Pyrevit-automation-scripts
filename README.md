@@ -4,7 +4,7 @@ A collection of high-efficiency tools for Electrical Engineers, featuring rapid 
 
 🚀 Features
 
-1. Total Length Calculator (C# Plugin) [here](CSharp_Plugins/)
+1. Total Length Calculator (C# Plugin) [here](CSharp_Plugins/TotalLengthCalculator)
 
 A compiled Revit command written in C# (.NET 8) for rapid quantity checking.
 
@@ -29,7 +29,7 @@ Automatically places tags on selected electrical categories (e.g., Fixtures, Lig
         Checks element location type to avoid errors.
         Transaction safety handling.
 
-3. Auto-Create electrical fixtures for devices (pyRevit script) (BETA) [here](pyRevit_Scripts/Electrical_Fixture_Creator (testing_required))
+3. Auto-Create electrical fixtures for devices (pyRevit script) (BETA) [here](pyRevit_Scripts/Electrical_Fixture_Creator%20%28testing_required%29)
 
 Scans linked Revit models (HVAC, Plumbing, Medical) and automatically places electrical connection points based on the equipment's power data.
 
