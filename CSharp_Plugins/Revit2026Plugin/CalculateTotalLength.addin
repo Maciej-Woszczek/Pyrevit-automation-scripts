@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RevitAddIns>
+  <AddIn Type="Command">
+    <Name>Revit2026Plugin</Name>
+    <!-- 
+      INSTRUCTIONS: 
+      Replace the path below with the full path to your compiled DLL.
+      Example: C:\Users\YourName\source\repos\MyPlugin\bin\Debug\net8.0-windows\MyPlugin.dll
+    -->
+    <Assembly>YOUR_DLL_PATH_HERE</Assembly>
+    
+    <!-- 
+      INSTRUCTIONS:
+      Generate a new GUID for every new plugin you create.
+      Tools -> Create GUID in Visual Studio.
+    -->
+    <AddInId>d0c4b3a2-983b-40ea-9bc4-2e98e4eef2b4</AddInId>
+    
+    <!-- Must match the Namespace.ClassName in your C# code -->
+    <FullClassName>Revit2026Plugin.CalculateTotalLength</FullClassName>
+    
+    <VendorId>ADSK</VendorId>
+    <VendorDescription>Your Name or Company</VendorDescription>
+    <Text>Run Total Length Calc</Text>
+    <Description>Calculates total length of selected conduits and trays.</Description>
+  </AddIn>
+</RevitAddIns>
