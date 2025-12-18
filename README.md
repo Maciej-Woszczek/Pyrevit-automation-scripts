@@ -4,7 +4,7 @@ A collection of high-efficiency tools for Electrical Engineers, featuring rapid 
 
 🚀 Features
 
-1. Total Length Calculator (C# Plugin) [here](CSharp_Plugins/TotalLengthCalculator.slnx)
+1. Total Length Calculator (C# Plugin) [here](CSharp_Plugins/)
 
 A compiled Revit command written in C# (.NET 8) for rapid quantity checking.
 
@@ -17,7 +17,7 @@ A compiled Revit command written in C# (.NET 8) for rapid quantity checking.
         Future-Proof: Built on .NET 8, compatible with Revit 2026.
         Standalone: Runs natively without requiring pyRevit or Dynamo.
 
-2. Auto-Tag Elements (pyRevit script)
+2. Auto-Tag Elements (pyRevit script) [here](pyRevit_Scripts/AutoTag)
 
 Automatically places tags on selected electrical categories (e.g., Fixtures, Lighting) in the active view.
 
@@ -29,7 +29,7 @@ Automatically places tags on selected electrical categories (e.g., Fixtures, Lig
         Checks element location type to avoid errors.
         Transaction safety handling.
 
-3. Auto-Create electrical fixtures for devices (pyRevit script) (BETA) 
+3. Auto-Create electrical fixtures for devices (pyRevit script) (BETA) [here](pyRevit_Scripts/Electrical_Fixture_Creator (testing_required))
 
 Scans linked Revit models (HVAC, Plumbing, Medical) and automatically places electrical connection points based on the equipment's power data.
 
@@ -44,7 +44,7 @@ Scans linked Revit models (HVAC, Plumbing, Medical) and automatically places ele
     ⚠️ Note: This script requires configuration to match your company's specific parameter names (e.g., "Apparent Power" vs "Load").
         It has been tested on sample data but requires validation on a real-world project to ensure edge cases are handled.
 
-4. Export Lighting Fixtures by Linked Room (pyRevit script)
+4. Export Lighting Fixtures by Linked Room (pyRevit script) [here](pyRevit_Scripts/Lighting_Fixture_Export)
 
 Generates a comprehensive lighting fixture report grouped by Room, capable of resolving rooms inside Linked Models.
 
