@@ -1,7 +1,9 @@
 Electrical Design Automation Tools for Revit ⚡
 
 A collection of Revit C# Addins and python scripts created to automate repetitive tasks for Electrical Engineers. Scripts are using the pyRevit API.
+
 🚀 Features
+
 1. Auto-Tag Elements
 
 Automatically places tags on selected electrical categories (e.g., Fixtures, Lighting) in the active view.
