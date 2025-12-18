@@ -12,10 +12,10 @@ A compiled Revit command written in C# (.NET 8) for rapid quantity checking.
     Solution: A compiled plugin that instantly sums the length of any selected linear elements and displays the result in Meters, handling all unit conversions automatically.
 
     Key Features:
-    Instant QTO: One-click calculation of total run lengths.
-    Unit Safety: robust conversion from Revit internal units (Feet) to Metric (Meters).
-    Future-Proof: Built on .NET 8, compatible with Revit 2026.
-    Standalone: Runs natively without requiring pyRevit or Dynamo.
+        Instant QTO: One-click calculation of total run lengths.
+        Unit Safety: robust conversion from Revit internal units (Feet) to Metric (Meters).
+        Future-Proof: Built on .NET 8, compatible with Revit 2026.
+        Standalone: Runs natively without requiring pyRevit or Dynamo.
 
 2. Auto-Tag Elements (pyRevit script)
 
@@ -25,7 +25,6 @@ Automatically places tags on selected electrical categories (e.g., Fixtures, Lig
     Solution: This script does it in <5 seconds.
 
     Key Features:
-
         Configurable target category (Socket, Light, Fire Alarm).
         Checks element location type to avoid errors.
         Transaction safety handling.
@@ -38,7 +37,6 @@ Scans linked Revit models (HVAC, Plumbing, Medical) and automatically places ele
     Solution: This script scans the link, reads the power parameter, and places the correct 1-Phase or 3-Phase connection family automatically.
 
     Key Features:
-
         Smart Filtering: Only connects devices that actually require power (filters out passive silencers, sinks, etc.).
         Type Mapping: Automatically selects between "Standard" and "Fire Safety" (FLS) connection types based on keywords.
         Duplicate Protection: Prevents placing a new connection if one already exists at that location.
