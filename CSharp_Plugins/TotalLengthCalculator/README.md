@@ -2,7 +2,7 @@
 
 A compiled C# plugin that calculates the total length of selected Conduits and Cable Trays.
 
-## 📁 Repository contents
+## 📁 Contents
 - `TotalLengthCalculator.sln` – open this in Visual Studio.
 - `TotalLengthCalculator.csproj` – project configuration (target framework, references).
 - `Command.cs` – source code implementing `IExternalCommand`.
