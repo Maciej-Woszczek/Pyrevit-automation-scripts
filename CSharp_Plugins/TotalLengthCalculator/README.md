@@ -10,7 +10,7 @@ A compiled C# plugin that calculates the total length of selected Conduits and C
     *   Press `Ctrl + Shift + B` to build the solution.
     *   *Note: Ensure you have Revit 2026 installed, or update references to your version.*
 3.  **Configure Manifest:**
-    *   Open `CalculateTotalLength.addin` (found in this folder).
+    *   Open `CalculateTotalLength.addin` (found in Revit2026Plugin folder).
     *   Edit the `<Assembly>` path to point to your compiled DLL (usually in `bin/Debug/net8.0-windows/`).
 4.  **Install:**
     *   Copy the `.addin` file to `%appdata%\Autodesk\Revit\Addins\2026\`.
